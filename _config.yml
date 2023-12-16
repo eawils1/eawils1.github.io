@@ -37,7 +37,7 @@ navigation_links:
     url: /about
 
   - title: Archive
-    url: /archive
+    url: /archive/
 
   - title: Search
     url: /search
