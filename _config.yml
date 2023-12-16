@@ -39,6 +39,12 @@ navigation_links:
   - title: Archive
     url: /archive/
 
+  - title: Categories
+    url: /Categories
+
+  - title: Index
+    url: /Index/
+
   - title: Search
     url: /search
 
