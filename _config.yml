@@ -40,10 +40,10 @@ navigation_links:
     url: /archive/
 
   - title: Categories
-    url: /Categories
+    url: /categories
 
   - title: Index
-    url: /Index/
+    url: /index/
 
   - title: Search
     url: /search
