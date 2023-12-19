@@ -493,6 +493,9 @@ a[href^="#fnref:"] {
       color: inherit;
     }
   }
+  @include mobile {
+    text-align: center !important;
+  }
 }
 
 .site-description {
@@ -505,6 +508,7 @@ a[href^="#fnref:"] {
 
   @include mobile {
     margin: 03px 0;
+    text-align: center !important;
   }
 }
 
@@ -533,10 +537,11 @@ nav {
       &:visited {
         color: inherit;
       }
-        @include mobile {
-          margin: 0 10px;
-          color: $blue;
-        }
+
+    @include mobile {
+        margin: 0 5px;
+        color: $blue;
+      }
   }
 }
 
