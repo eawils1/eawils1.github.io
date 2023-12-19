@@ -5,7 +5,7 @@ body {
   background: #151515;
   font-family: "Merriweather", "Computer Modern", Georgia, "Times New Roman", serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 1.66666666667;
   color: #bdbdbd;
   -webkit-text-size-adjust: 100%;
@@ -38,6 +38,14 @@ ul, ol, dl, figure,
   width: 100%;
   background-color: #212121; }
 
+.container-footer {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 50px;
+  width: 100%;
+  background-color: #424242; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
   color: #fafafa;
@@ -46,27 +54,27 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.66666666667; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2.4rem; }
   h1 a {
     color: inherit; }
 
 h2 {
-  font-size: 1.85rem; }
+  font-size: 2.22rem; }
 
 h3 {
-  font-size: 1.6rem; }
+  font-size: 1.92rem; }
 
 h4 {
-  font-size: 1.35rem; }
+  font-size: 1.62rem; }
 
 h5 {
-  font-size: 1.07px; }
+  font-size: 1.284rem; }
 
 h6 {
-  font-size: 0.9rem; }
+  font-size: 1.08rem; }
 
 small, .text_small {
-  font-size: 0.9rem; }
+  font-size: 1.08rem; }
 
 a {
   color: #3498db;
@@ -109,7 +117,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 0.9rem !important;
+  font-size: 1.08rem !important;
   margin-top: -20px;
   margin-bottom: 10px;
   text-align: center;
@@ -141,7 +149,7 @@ hr {
     background: #26212E;
     font-weight: 400;
     color: #BD85FA;
-    font-size: 1.07rem !important;
+    font-size: 1.284rem !important;
     white-space: nowrap;
     text-decoration: none;
     padding: 06px 12px;
@@ -209,7 +217,8 @@ blockquote {
   color: #BD85FA;
   border-left: 4px solid #BD85FA;
   padding-left: 15px;
-  font-size: 1.07rem !important;
+  padding-right: 15px;
+  font-size: 1.284rem !important;
   font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -219,7 +228,7 @@ blockquote {
 pre,
 code {
   font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, Menlo, Monaco, "Noto Sans Mono", "Noto Mono", "Roboto Mono", "Droid Sans Mono", Cousine, Inconsolata, "Liberation Mono", "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", monospace !important;
-  font-size: 1rem !important;
+  font-size: 1.08rem !important;
   color: #586e75;
   border: 01px solid #dddddd;
   border-radius: 03px;
@@ -269,7 +278,7 @@ pre {
   background-color: transparent; }
 
 .gist .gist-file .gist-data {
-  font-size: 1rem !important; }
+  font-size: 1.08rem !important; }
 
 .gist code {
   isolation: isolate;
@@ -315,7 +324,7 @@ a[href^="#fnref:"] {
 
 .footnotes {
   margin-top: 15px;
-  font-size: 0.9rem !important; }
+  font-size: 0.96rem !important; }
 
 .hidden,
 [hidden] {
@@ -363,7 +372,7 @@ a[href^="#fnref:"] {
   color: #05d8ce;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-weight: 400;
-  font-size: 1.85rem !important;
+  font-size: 2.22rem !important;
   letter-spacing: 01px; }
   .site-name a:hover {
     color: #FCA17D !important;
@@ -374,7 +383,7 @@ a[href^="#fnref:"] {
 .site-description {
   margin: -05px 0 0 0;
   color: #fafafa;
-  font-size: 1.07rem !important;
+  font-size: 1.284rem !important;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif !important;
   font-weight: 400;
   text-align: left !important; }
@@ -384,13 +393,13 @@ a[href^="#fnref:"] {
 
 nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
-  font-size: 1.2rem !important; }
+  font-size: 1.44rem !important; }
   @media screen and (max-width: 640px) {
     nav {
       float: none;
       margin-top: 09px;
       display: block;
-      font-size: 1.07rem !important; } }
+      font-size: 1.284rem !important; } }
   nav a {
     margin-left: 20px;
     color: #616161;
@@ -433,7 +442,7 @@ a.nav-menu-item:focus {
 
 .post .read-more {
   text-transform: uppercase;
-  font-size: 0.9rem !important;
+  font-size: 0.96rem !important;
   color: #05d8ce; }
   .post .read-more a {
     color: #05d8ce;
@@ -446,7 +455,7 @@ a.nav-menu-item:focus {
 
 .post .reading-time {
   text-transform: uppercase;
-  font-size: 0.9rem !important;
+  font-size: 0.96rem !important;
   color: #05d8ce; }
 
 .wrapper-footer {
@@ -468,7 +477,7 @@ footer {
       color: #151515; }
 
 .copyright {
-  font-size: 0.9rem !important; }
+  font-size: 0.96rem !important; }
   .copyright p {
     margin: 0;
     padding: 0; }

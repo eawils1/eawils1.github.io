@@ -73,12 +73,16 @@ $pagination-active-bg: $blue;
 $pagination-active-color: $white;
 $pagination-separator-color: $paleGray;
 
+// Page layout
+$content-width: 1000px;
+$content-padding: 50px;
+$font-scale: 1.2rem; // Increasing or decreasing this scales all the text on the website, this corresponds to the body text.
+
 // Font stacks
 $serif-font-family: "Merriweather", "Computer Modern", Georgia, "Times New Roman", serif;
 $sans-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
 $code-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, Menlo, Monaco, "Noto Sans Mono", "Noto Mono", "Roboto Mono", "Droid Sans Mono", Cousine, Inconsolata, "Liberation Mono", "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", monospace;
-$content-width: 1000px;
-$content-padding: 50px;
+
 
 // Mobile breakpoints
 @mixin mobile {
