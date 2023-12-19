@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+//
+// VARIABLES
+//
+
+// Colors
+$white: #222222; //#FFFFFF
+$black: #EEEEEE; //#000000
+$gray: #999999; //#666666
+$lightGray: #444444; //#EEEEEE
+$paleGray: #555555; //#DDDDDD
+$darkGray: #111111; //#333333
+$darkerGray: #000000; //#222222
+$blue: #3498db; //#4183C4
+$purple: #8e44ad; //#4141C4
+$mahogany: #c0392b; //#BD2C00
+
+// Pagination colors
+$pagination-color: $darkGray;
+$pagination-hover-color: $blue;
+$pagination-active-bg: $blue;
+$pagination-active-color: $white;
+$pagination-separator-color: $paleGray;
+
+// Font stacks
+$sans-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+$code-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, Menlo, Monaco, "Noto Sans Mono", "Noto Mono", "Roboto Mono", "Droid Sans Mono", Cousine, Inconsolata, "Liberation Mono", "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", monospace;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+// Transitions
+$time: 250ms;
