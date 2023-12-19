@@ -8,7 +8,7 @@ html {
 
 body {
   background: $background;
-  font-family: $sans-font-family;
+  font-family: $serif-font-family;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
@@ -47,7 +47,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
   color: $header;
-  font-family: $sans-font-family;
+  font-family: $serif-font-family;
   font-weight: 700;
   line-height: 1.66666666667;
 }
