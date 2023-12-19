@@ -10,7 +10,7 @@ body {
   background: $background;
   font-family: $serif-font-family;
   font-weight: 400;
-  font-size: $font-scale;
+  font-size: 1.2 * $font-scale;
   line-height: 1.66666666667;
   color: $body;
   -webkit-text-size-adjust: 100%;
@@ -266,7 +266,7 @@ blockquote {
   border-left: 04px solid $blockquote_accent;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 1.07 * $font-scale !important;
+  font-size: $font-scale !important;
   font-style: italic;
 
   > :last-child {
@@ -281,7 +281,7 @@ blockquote {
 pre,
 code {
   font-family: $code-font-family !important;
-  font-size: 0.9 * $font-scale !important;
+  font-size: $font-scale !important;
   color: #586e75;
   border: 01px solid #dddddd;
   border-radius: 03px;
@@ -345,7 +345,7 @@ pre {
   background-color: transparent;
 }
 .gist .gist-file .gist-data {
-  font-size: 0.9 * $font-scale !important;
+  font-size: $font-scale !important;
 }
 .gist code {
   isolation: isolate;
@@ -409,7 +409,7 @@ a[href^="#fnref:"] {
 
 .footnotes {
   margin-top: 15px;
-  font-size: 0.8 * $font-scale !important;
+  font-size: 0.9 * $font-scale !important;
 }
 
 .hidden,
@@ -490,7 +490,7 @@ a[href^="#fnref:"] {
 .site-description {
   margin: -05px 0 0 0;
   color: $site_description;
-  font-size: 1.07 * $font-scale !important;
+  font-size: $font-scale !important;
   font-family: $sans-font-family !important;
   font-weight: 400;
   text-align: left !important;
@@ -570,7 +570,7 @@ a.nav-menu-item:focus {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 0.8 * $font-scale !important;
+    font-size: 0.9 * $font-scale !important;
     color: $highlight;
 
     a {
@@ -590,7 +590,7 @@ a.nav-menu-item:focus {
 
   .reading-time {
     text-transform: uppercase;
-    font-size: 0.8 * $font-scale !important;
+    font-size: 0.9 * $font-scale !important;
     color: $highlight;
   }
 }
