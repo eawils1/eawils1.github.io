@@ -10,7 +10,7 @@ body {
   background: $background;
   font-family: $serif-font-family;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18px; //18px ~ 1.2rem
   line-height: 1.66666666667;
   color: $body;
   -webkit-text-size-adjust: 100%;
@@ -40,9 +40,10 @@ ul, ol, dl, figure,
 .container {
   flex: 1 0 auto;
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: $content-width;
+  padding: 0 $content-padding;
   width: 100%;
+  background-color: $content-background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,23 +55,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2rem; 
   a {
     color: inherit;
   }
 }
 
-h2 {font-size: 28px;}
+h2 {font-size: 1.85rem;}
 
-h3 {font-size: 24px;}
+h3 {font-size: 1.6rem;}
 
-h4 {font-size: 20px;}
+h4 {font-size: 1.35rem;}
 
-h5 {font-size: 16px;}
+h5 {font-size: 1.07px;}
 
-h6 {font-size: 14px;}
+h6 {font-size: 0.9rem;}
 
-small, .text_small {font-size: 14px;}
+small, .text_small {font-size: 0.9rem;}
 
 a {
   color: $blue;
@@ -127,7 +128,7 @@ figure > img {
 }
 
 figcaption {
-    font-size: 14px !important;
+    font-size: 0.9rem !important;
     margin-top: -20px;
     margin-bottom: 10px;
     text-align: center;
@@ -164,7 +165,7 @@ hr {
     background: $categories_bg;
     font-weight: 400;
     color: $categories_text;
-    font-size: 16px !important;
+    font-size: 1.07rem !important;
     white-space: nowrap;
     text-decoration: none;
     padding: 06px 12px;
@@ -211,7 +212,7 @@ hr {
 }
 
 .post-nav {
-  font-size: 18px !important;
+  font-size: 1.2rem !important;
   margin-top: -10px;
   margin-bottom: 35px;
   clear: both;
@@ -255,7 +256,7 @@ blockquote {
   color: $quote_text;
   border-left: 04px solid $blockquote_accent;
   padding-left: 15px;
-  font-size: 16px !important;
+  font-size: 1.07rem !important;
   font-style: italic;
 
   > :last-child {
@@ -270,7 +271,7 @@ blockquote {
 pre,
 code {
   font-family: $code-font-family !important;
-  font-size: 15px !important;
+  font-size: 1rem !important;
   color: #586e75;
   border: 01px solid #dddddd;
   border-radius: 03px;
@@ -334,7 +335,7 @@ pre {
   background-color: transparent;
 }
 .gist .gist-file .gist-data {
-  font-size: 15px !important;
+  font-size: 1rem !important;
 }
 .gist code {
   isolation: isolate;
@@ -398,7 +399,7 @@ a[href^="#fnref:"] {
 
 .footnotes {
   margin-top: 15px;
-  font-size: 14px !important;
+  font-size: 0.9rem !important;
 }
 
 .hidden,
@@ -462,7 +463,7 @@ a[href^="#fnref:"] {
   color: $site_title;
   font-family: $sans-font-family;
   font-weight: 400;
-  font-size: 28px !important;
+  font-size: 1.85rem !important;
   letter-spacing: 01px;
 
   a {
@@ -479,7 +480,8 @@ a[href^="#fnref:"] {
 .site-description {
   margin: -05px 0 0 0;
   color: $site_description;
-  font-size: 16px !important;
+  font-size: 1.07rem !important;
+  font-family: $sans-font-family !important;
   font-weight: 400;
   text-align: left !important;
 
@@ -490,13 +492,13 @@ a[href^="#fnref:"] {
 
 nav {
   font-family: $sans-font-family;
-  font-size: 18px !important;
+  font-size: 1.2rem !important;
 
   @include mobile {
     float: none;
     margin-top: 09px;
     display: block;
-    font-size: 16px !important;
+    font-size: 1.07rem !important;
   }
 
   a {
@@ -558,7 +560,7 @@ a.nav-menu-item:focus {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 14px !important;
+    font-size: 0.9rem !important;
     color: $highlight;
 
     a {
@@ -578,7 +580,7 @@ a.nav-menu-item:focus {
 
   .reading-time {
     text-transform: uppercase;
-    font-size: 14px !important;
+    font-size: 0.9rem !important;
     color: $highlight;
   }
 }
@@ -610,7 +612,7 @@ footer {
 }
 
 .copyright {
-  font-size: 14px !important;
+  font-size: 0.9rem !important;
 
   p {
     margin: 0;

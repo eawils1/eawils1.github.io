@@ -40,7 +40,8 @@ $teal: #05d8ce;
 
 
 // Objects
-$background: $gray900;
+$background: $darkerGray;
+$content-background: $gray900;
 $body: $gray400; // Body text
 $header: $gray50; // h1 h2 h3 colors etc.
 $visited: $lightpurple;// Links that have been clicked
@@ -76,6 +77,8 @@ $pagination-separator-color: $paleGray;
 $serif-font-family: "Merriweather", "Computer Modern", Georgia, "Times New Roman", serif;
 $sans-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
 $code-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, Menlo, Monaco, "Noto Sans Mono", "Noto Mono", "Roboto Mono", "Droid Sans Mono", Cousine, Inconsolata, "Liberation Mono", "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", monospace;
+$content-width: 1000px;
+$content-padding: 50px;
 
 // Mobile breakpoints
 @mixin mobile {
