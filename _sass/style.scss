@@ -27,6 +27,9 @@ body {
   margin: 0;
   flex-direction: column;
   overflow-wrap: break-word;
+  @include mobile {
+    font-size: $font-scale;
+  }
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -71,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5 * $font-scale; 
   font-weight: 500;
-  text-align: center !important;
+  text-align: center;
   a {
     color: inherit;
   }
@@ -478,23 +481,24 @@ a[href^="#fnref:"] {
 .site-name {
   margin: 0;
   color: $site_title;
-  text-align: left !important;
+  text-align: left;
   font-family: $sans-font-family;
   font-weight: 300 !important;
   font-size: 1.85 * $font-scale !important;
   letter-spacing: 01px;
 
-  a {
-    &:hover {
-      color: $site_title_hover !important;
-      text-decoration: none;
-    }
-    &:visited {
-      color: inherit;
-    }
-  }
   @include mobile {
-    text-align: center !important;
+    text-align: center;
+  }
+
+  a {
+      &:hover {
+        color: $site_title_hover !important;
+        text-decoration: none;
+      }
+      &:visited {
+        color: inherit;
+      }
   }
 }
 
@@ -504,11 +508,11 @@ a[href^="#fnref:"] {
   font-size: $font-scale !important;
   font-family: $sans-font-family !important;
   font-weight: 300;
-  text-align: left !important;
+  text-align: left;
 
   @include mobile {
     margin: 03px 0;
-    text-align: center !important;
+    text-align: center;
   }
 }
 

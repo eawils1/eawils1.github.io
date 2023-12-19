@@ -388,6 +388,9 @@ a[href^="#fnref:"] {
     text-decoration: none; }
   .site-name a:visited {
     color: inherit; }
+  @media screen and (max-width: 640px) {
+    .site-name {
+      text-align: center !important; } }
 
 .site-description {
   margin: -05px 0 0 0;
@@ -398,7 +401,8 @@ a[href^="#fnref:"] {
   text-align: left !important; }
   @media screen and (max-width: 640px) {
     .site-description {
-      margin: 03px 0; } }
+      margin: 03px 0;
+      text-align: center !important; } }
 
 nav {
   font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
@@ -422,7 +426,7 @@ nav {
       color: inherit; }
     @media screen and (max-width: 640px) {
       nav a {
-        margin: 0 10px;
+        margin: 0 5px;
         color: #3498db; } }
 
 .nav-menu-item.active,
