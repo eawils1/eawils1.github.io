@@ -77,12 +77,12 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $visited;
+    color: inherit;
   }
 
   &:hover {
     color: $hover;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -142,7 +142,7 @@ hr {
   position: relative;
   margin-top: 35px;
   margin-bottom: 35px;
-  border: 01px solid $lightGray;
+  border: 01px solid $border;
 }
 
 .date {
@@ -153,17 +153,17 @@ hr {
 
 .post-categories {
   font-weight: bold;
-  color: $secondary;
+  color: $categories_text;
   margin-bottom: 40px;
 
   .categories-button {
     display: inline-block;
     text-align: center;
-    border: 01px solid $paleGray;
+    border: 01px solid $border;
     border-radius: 03px;
-    background: #ffffff;
+    background: $categories_bg;
     font-weight: 400;
-    color: $secondary;
+    color: $categories_text;
     font-size: 16px !important;
     white-space: nowrap;
     text-decoration: none;
@@ -252,7 +252,7 @@ hr {
 
 blockquote {
   background-color: $blockquote_bg;
-  color: $secondary;
+  color: $quote_text;
   border-left: 04px solid $blockquote_accent;
   padding-left: 15px;
   font-size: 16px !important;
@@ -422,7 +422,7 @@ a[href^="#fnref:"] {
   display: flex;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 01px solid $lightGray;
+  border-bottom: 01px solid $border;
 
   @include mobile {
     display: block;
@@ -478,9 +478,10 @@ a[href^="#fnref:"] {
 
 .site-description {
   margin: -05px 0 0 0;
-  color: $secondary;
+  color: $site_description;
   font-size: 16px !important;
   font-weight: 400;
+  text-align: left !important;
 
   @include mobile {
     margin: 03px 0;
@@ -541,7 +542,7 @@ a.nav-menu-item:focus {
 
 .posts > .post {
   padding-bottom: 02em;
-  border-bottom: 01px solid $lightGray;
+  border-bottom: 01px solid $border;
 }
 
 .posts > .post:last-child {

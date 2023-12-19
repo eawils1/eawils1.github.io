@@ -48,14 +48,16 @@ $hover: $lightorange;// Links you are hovering over
 $highlight: $teal;
 $site_title: $teal;
 $site_title_hover: $lightorange;
+$site_description: $gray50;
 $nav: $gray700; // Nav links at the top of the site
 $nav_active: $teal; // When you hover over the nav links
 $footer: $gray800; // Footer color at bottom of page
 $social_icon: $gray900;
 $social_icon_hover: $darkerGray;
-$secondary: $peach; // Secondary font color
-$blockquote_bg: $background;
-$blockquote_accent: $secondary;
+$secondary: $lightpurple; // Secondary font color
+$quote_text: $lightpurple;
+$blockquote_bg: $darkpurple;
+$blockquote_accent: $lightpurple;
 $codeblock: $black;
 $tableborder: $lightpurple;
 $table: $darkpurple;
@@ -71,7 +73,7 @@ $pagination-active-color: $white;
 $pagination-separator-color: $paleGray;
 
 // Font stacks
-$serif-font-family: "Computer Modern", Georgia, "Times New Roman", serif;
+$serif-font-family: "Merriweather", "Computer Modern", Georgia, "Times New Roman", serif;
 $sans-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
 $code-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, Menlo, Monaco, "Noto Sans Mono", "Noto Mono", "Roboto Mono", "Droid Sans Mono", Cousine, Inconsolata, "Liberation Mono", "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", monospace;
 
