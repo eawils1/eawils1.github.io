@@ -59,14 +59,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
   color: $header;
   font-family: $sans-font-family;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.66666666667;
 }
 
 h1 {
   font-size: 2.2 * $font-scale; 
   font-family: serif-font-family;
-  font-weight: 550 !important;
+  font-weight: 500;
   text-align: center !important;
   a {
     color: inherit;
@@ -476,7 +476,7 @@ a[href^="#fnref:"] {
   color: $site_title;
   text-align: left !important;
   font-family: $sans-font-family;
-  font-weight: 400;
+  font-weight: 300 !important;
   font-size: 1.85 * $font-scale !important;
   letter-spacing: 01px;
 
@@ -496,7 +496,7 @@ a[href^="#fnref:"] {
   color: $site_description;
   font-size: $font-scale !important;
   font-family: $sans-font-family !important;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left !important;
 
   @include mobile {
