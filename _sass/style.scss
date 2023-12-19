@@ -64,7 +64,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2 * $font-scale; 
+  font-size: 2.2 * $font-scale; 
+  font-family: serif-font-family;
+  font-weight: 550 !important;
+  text-align: center !important;
   a {
     color: inherit;
   }
@@ -471,6 +474,7 @@ a[href^="#fnref:"] {
 .site-name {
   margin: 0;
   color: $site_title;
+  text-align: left !important;
   font-family: $sans-font-family;
   font-weight: 400;
   font-size: 1.85 * $font-scale !important;
@@ -596,7 +600,7 @@ a.nav-menu-item:focus {
 }
 
 .wrapper-footer {
-  margin-top: 30px;
+  margin-top: 0px;
   border-top: 01px solid #ddd;
   border-bottom: 01px solid #ddd;
   background-color: $footer;
