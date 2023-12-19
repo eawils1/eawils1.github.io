@@ -2,12 +2,12 @@ html {
   font-size: 100%; }
 
 body {
-  background: #0d0628;
+  background: #212121;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
-  color: #555555;
+  color: #bdbdbd;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
@@ -38,7 +38,7 @@ ul, ol, dl, figure,
 
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
-  color: #FFFFFF;
+  color: #fafafa;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-weight: 700;
   line-height: 1.66666666667; }
@@ -70,7 +70,7 @@ a {
   color: #3498db;
   text-decoration: none; }
   a:visited {
-    color: #171717; }
+    color: #BD85FA; }
   a:hover {
     color: #FCA17D;
     text-decoration: underline; }
@@ -120,7 +120,7 @@ hr {
   position: relative;
   margin-top: 35px;
   margin-bottom: 35px;
-  border: 1px solid #999999; }
+  border: 1px solid #757575; }
 
 .date {
   font-weight: bold;
@@ -134,7 +134,7 @@ hr {
   .post-categories .categories-button {
     display: inline-block;
     text-align: center;
-    border: 1px solid #555555;
+    border: 1px solid #616161;
     border-radius: 03px;
     background: #ffffff;
     font-weight: 400;
@@ -148,7 +148,7 @@ hr {
     user-select: none;
     transition: .4s; }
   .post-categories .categories-button:hover {
-    color: #c0392b;
+    color: #05d8ce;
     text-decoration: underline; }
   .post-categories .categories-button:visited {
     color: inherit; }
@@ -203,7 +203,7 @@ hr {
   background: #3498db; }
 
 blockquote {
-  background-color: #0d0628;
+  background-color: #212121;
   color: #F9DBBD;
   border-left: 4px solid #F9DBBD;
   padding-left: 15px;
@@ -281,18 +281,18 @@ table {
   width: 100%;
   border-collapse: collapse;
   overflow-x: auto;
-  border: 1px solid #444444; }
+  border: 1px solid #BD85FA; }
   table + table {
     margin-top: 30px; }
   table tr:nth-child(even) {
-    background-color: #000000; }
+    background-color: #26212E; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #000000;
-    border: 1px solid #444444; }
+    background-color: #26212E;
+    border: 1px solid #BD85FA; }
   table td {
-    border: 1px solid #444444; }
+    border: 1px solid #BD85FA; }
   table tr,
   table td,
   table th {
@@ -329,7 +329,7 @@ a[href^="#fnref:"] {
   display: flex;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 1px solid #999999; }
+  border-bottom: 1px solid #757575; }
   @media screen and (max-width: 640px) {
     .masthead {
       display: block;
@@ -358,13 +358,13 @@ a[href^="#fnref:"] {
 
 .site-name {
   margin: 0;
-  color: #171717;
+  color: #05d8ce;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-weight: 400;
   font-size: 28px !important;
   letter-spacing: 01px; }
   .site-name a:hover {
-    color: #c0392b !important;
+    color: #FCA17D !important;
     text-decoration: none; }
   .site-name a:visited {
     color: inherit; }
@@ -389,7 +389,7 @@ nav {
       font-size: 16px !important; } }
   nav a {
     margin-left: 20px;
-    color: #9A348E;
+    color: #616161;
     text-align: right;
     font-weight: 400;
     letter-spacing: 01px; }
@@ -406,7 +406,7 @@ nav {
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: #FCA17D; }
+  color: #05d8ce; }
 
 .clearfix:before,
 .clearfix:after {
@@ -418,7 +418,7 @@ a.nav-menu-item:focus {
 
 .posts > .post {
   padding-bottom: 02em;
-  border-bottom: 1px solid #999999; }
+  border-bottom: 1px solid #757575; }
 
 .posts > .post:last-child {
   padding-bottom: 01em;
@@ -430,26 +430,26 @@ a.nav-menu-item:focus {
 .post .read-more {
   text-transform: uppercase;
   font-size: 14px !important;
-  color: #c0392b; }
+  color: #05d8ce; }
   .post .read-more a {
-    color: #c0392b;
+    color: #05d8ce;
     text-decoration: none; }
   .post .read-more:visited {
-    color: #c0392b; }
+    color: #05d8ce; }
   .post .read-more:hover {
-    color: #c0392b;
+    color: #05d8ce;
     text-decoration: underline; }
 
 .post .reading-time {
   text-transform: uppercase;
   font-size: 14px !important;
-  color: #c0392b; }
+  color: #05d8ce; }
 
 .wrapper-footer {
   margin-top: 30px;
   border-top: 01px solid #ddd;
   border-bottom: 01px solid #ddd;
-  background-color: #999999; }
+  background-color: #424242; }
 
 footer {
   padding: 20px 0;
@@ -459,9 +459,9 @@ footer {
   footer .social-icon {
     display: inline-block;
     padding: 0 04px;
-    color: #444444; }
+    color: #212121; }
     footer .social-icon:hover {
-      color: #1f1f1f; }
+      color: #151515; }
 
 .copyright {
   font-size: 14px !important; }
@@ -1011,7 +1011,7 @@ green     #859900  operators, other keywords
 .Pagination-link {
   align-items: center;
   border-radius: 50%;
-  color: #1f1f1f;
+  color: #212121;
   display: flex;
   height: 100%;
   justify-content: center;
@@ -1030,7 +1030,7 @@ green     #859900  operators, other keywords
 .Pagination-link--inactive,
 .Pagination-link--inactive:hover {
   background: transparent;
-  color: #1f1f1f;
+  color: #212121;
   opacity: 0.3; }
 
 .Pagination-link--active,
@@ -1052,7 +1052,7 @@ green     #859900  operators, other keywords
 .Pagination-separator,
 .Pagination-separator::before,
 .Pagination-separator::after {
-  background: #555555;
+  background: #616161;
   border-radius: 50%;
   content: '';
   display: block;
@@ -1079,7 +1079,7 @@ green     #859900  operators, other keywords
 
 .Pagination-arrow::before,
 .Pagination-arrow::after {
-  background: #1f1f1f;
+  background: #212121;
   content: '';
   display: block;
   height: 15px;
