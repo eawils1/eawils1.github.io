@@ -5,16 +5,37 @@
 //
 
 // Colors
-$white: #222222; //#FFFFFF
-$black: #EEEEEE; //#000000
-$gray: #999999; //#666666
-$lightGray: #444444; //#EEEEEE
-$paleGray: #555555; //#DDDDDD
-$darkGray: #111111; //#333333
-$darkerGray: #000000; //#222222
-$blue: #3498db; //#4183C4
-$purple: #8e44ad; //#4141C4
-$mahogany: #c0392b; //#BD2C00
+
+$white: #FFFFFF; //#FFFFFF (Background)
+$black: #000000; //#000000 (Text)
+$gray: #444444; //#666666 Subtle text color
+$lightGray: #999999; //#EEEEEE Container background
+$paleGray: #555555; //#DDDDDD Container border
+$darkGray: #1f1f1f; //#333333 Dark background
+$darkerGray: #171717; //#222222 Darkest background
+$blue: #3498db; //#4183C4 Link color
+$purple: #8e44ad; //#4141C4 Accent color
+$mahogany: #c0392b; //#BD2C00 Highlight color
+
+$background: #0d0628;
+$body: $paleGray; // Body text
+$header: $white; // h1 h2 h3 colors etc.
+$visited: $darkerGray;// Links that have been clicked
+$hover: #FCA17D;// Links you are hovering over
+$highlight: #c0392b;
+$site_title: $darkerGray;
+$site_title_hover: $highlight;
+$nav: #9A348E; // Nav links at the top of the site
+$nav_active: #FCA17D; // When you hover over the nav links
+$footer: $lightGray; // Footer color at bottom of page
+$social_icon: $gray;
+$social_icon_hover: $darkGray;
+$secondary: #F9DBBD; // Secondary font color
+$blockquote_bg: $background;
+$blockquote_accent: $secondary;
+$codeblock: $black;
+$tableborder: $gray;
+$table: $black;
 
 // Pagination colors
 $pagination-color: $darkGray;

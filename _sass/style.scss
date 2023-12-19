@@ -7,12 +7,12 @@ html {
 }
 
 body {
-  background: $white;
+  background: $background;
   font-family: $sans-font-family;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
-  color: $darkGray;
+  color: $body;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
@@ -46,7 +46,7 @@ ul, ol, dl, figure,
 
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
-  color: $darkerGray;
+  color: $header;
   font-family: $sans-font-family;
   font-weight: 700;
   line-height: 1.66666666667;
@@ -76,11 +76,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $purple;
+    color: $visited;
   }
 
   &:hover {
-    color: $blue;
+    color: $hover;
     text-decoration: underline;
   }
 }
@@ -130,7 +130,7 @@ figcaption {
     margin-top: -20px;
     margin-bottom: 10px;
     text-align: center;
-    color: $gray;
+    color: $secondary;
 }
 
 .gmnoprint img {
@@ -146,13 +146,13 @@ hr {
 
 .date {
   font-weight: bold;
-  color: $gray;
+  color: $secondary;
   margin-bottom: 35px;
 }
 
 .post-categories {
   font-weight: bold;
-  color: $gray;
+  color: $secondary;
   margin-bottom: 40px;
 
   .categories-button {
@@ -162,7 +162,7 @@ hr {
     border-radius: 03px;
     background: #ffffff;
     font-weight: 400;
-    color: $gray;
+    color: $secondary;
     font-size: 16px !important;
     white-space: nowrap;
     text-decoration: none;
@@ -174,7 +174,7 @@ hr {
   }
 
   .categories-button:hover {
-    color: $darkGray;
+    color: $highlight;
     text-decoration: underline;
   }
 
@@ -186,13 +186,13 @@ hr {
 .share-post {
   isolation: isolate;
   font-weight: bold;
-  color: $gray;
+  color: $secondary;
   margin-bottom: 30px;
   }
 
 .no-comments {
   font-weight: bold;
-  color: $gray;
+  color: $secondary;
   margin-bottom: 25px;
 }
 
@@ -201,7 +201,7 @@ hr {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    color: $gray;
+    color: $secondary;
   }
 }
 
@@ -220,7 +220,7 @@ hr {
         margin: 0;
         padding: 0;
         font-weight: bold;
-        color: $gray;
+        color: $secondary;
       }
 
       &:first-child {
@@ -237,7 +237,7 @@ hr {
 
 .category-head {
   font-weight: bold;
-  color: $gray;
+  color: $secondary;
 }
 
 ::-moz-selection {
@@ -250,9 +250,9 @@ hr {
 }
 
 blockquote {
-  background-color: $white;
-  color: $gray;
-  border-left: 04px solid #eeeeee;
+  background-color: $blockquote_bg;
+  color: $secondary;
+  border-left: 04px solid $blockquote_accent;
   padding-left: 15px;
   font-size: 16px !important;
   font-style: italic;
@@ -273,7 +273,7 @@ code {
   color: #586e75;
   border: 01px solid #dddddd;
   border-radius: 03px;
-  background-color: #fdf6e3;
+  background-color: $codeblock;
 }
 
 code {
@@ -348,7 +348,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   overflow-x: auto;
-  border: 01px solid #dddddd;
+  border: 01px solid $tableborder;
 
   & + table {
     margin-top: 30px;
@@ -356,7 +356,7 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: #efefef;
+      background-color: $table;
     }
   }
 
@@ -365,12 +365,12 @@ table {
   }
 
   th {
-    background-color: #efefef;
-    border: 01px solid #dddddd;
+    background-color: $table;
+    border: 01px solid $tableborder;
   }
 
   td {
-    border: 01px solid #dddddd;
+    border: 01px solid $tableborder;
   }
 
   tr,
@@ -458,7 +458,7 @@ a[href^="#fnref:"] {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $site_title;
   font-family: $sans-font-family;
   font-weight: 400;
   font-size: 28px !important;
@@ -466,7 +466,7 @@ a[href^="#fnref:"] {
 
   a {
     &:hover {
-      color: $mahogany !important;
+      color: $site_title_hover !important;
       text-decoration: none;
     }
     &:visited {
@@ -477,7 +477,7 @@ a[href^="#fnref:"] {
 
 .site-description {
   margin: -05px 0 0 0;
-  color: $gray;
+  color: $secondary;
   font-size: 16px !important;
   font-weight: 400;
 
@@ -499,7 +499,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $nav;
     text-align: right;
     font-weight: 400;
     letter-spacing: 01px;
@@ -521,7 +521,7 @@ nav {
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: $mahogany;
+  color: $nav_active;
 }
 
 .clearfix:before,
@@ -557,19 +557,19 @@ a.nav-menu-item:focus {
   .read-more {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
+    color: $highlight;
 
     a {
-      color: $mahogany;
+      color: $highlight;
       text-decoration: none;
     }
 
       &:visited {
-        color: $mahogany;
+        color: $highlight;
       }
 
         &:hover {
-          color: $mahogany;
+          color: $highlight;
           text-decoration: underline;
         }
   }
@@ -577,7 +577,7 @@ a.nav-menu-item:focus {
   .reading-time {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
+    color: $highlight;
   }
 }
 
@@ -585,7 +585,7 @@ a.nav-menu-item:focus {
   margin-top: 30px;
   border-top: 01px solid #ddd;
   border-bottom: 01px solid #ddd;
-  background-color: $lightGray;
+  background-color: $footer;
 }
 
 footer {
@@ -599,10 +599,10 @@ footer {
   .social-icon {
     display: inline-block;
     padding: 0 04px;
-    color: $gray;
+    color: $social_icon;
 
       &:hover {
-      color: $darkGray;
+      color: $social_icon_hover;
       }
   }
 }
