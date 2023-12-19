@@ -37,6 +37,9 @@ ul, ol, dl, figure,
   padding: 0 50px;
   width: 100%;
   background-color: #212121; }
+  @media screen and (max-width: 640px) {
+    .container {
+      padding: 0 10px; } }
 
 .container-footer {
   flex: 1 0 auto;
@@ -45,17 +48,19 @@ ul, ol, dl, figure,
   padding: 0 50px;
   width: 100%;
   background-color: #424242; }
+  @media screen and (max-width: 640px) {
+    .container-footer {
+      padding: 0 10px; } }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
   color: #fafafa;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+  font-family: Cambria, Merriweather, Computer Modern, Georgia, Times New Roman, serif;
   font-weight: 600;
   line-height: 1.66666666667; }
 
 h1 {
-  font-size: 2.2rem;
-  font-family: serif-font-family;
+  font-size: 2.5rem;
   font-weight: 500;
   text-align: center !important; }
   h1 a {
@@ -374,7 +379,7 @@ a[href^="#fnref:"] {
   margin: 0;
   color: #05d8ce;
   text-align: left !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-weight: 300 !important;
   font-size: 1.85rem !important;
   letter-spacing: 01px; }
@@ -388,7 +393,7 @@ a[href^="#fnref:"] {
   margin: -05px 0 0 0;
   color: #fafafa;
   font-size: 1rem !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif !important;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif !important;
   font-weight: 300;
   text-align: left !important; }
   @media screen and (max-width: 640px) {
@@ -396,7 +401,7 @@ a[href^="#fnref:"] {
       margin: 03px 0; } }
 
 nav {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans", Roboto, "Droid Sans", Arimo, "Helvetica Neue", Helvetica, "Liberation Sans", Arial, Ubuntu, "DejaVu Sans", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
   font-size: 1.2rem !important; }
   @media screen and (max-width: 640px) {
     nav {
