@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What Is This About?
+title: What is this about?
 permalink: /about
 ---
 This website is a space for to document my learning and growth as an individual. I intend to post my thoughts about matters that strike me as important, as well as some miscellaneous other things, potentially creative endeavours. The purpose of doing this is to share my thoughts with likeminded people, and to leverage writing into personal development. That is the short description! What follows is substantially more detail than necessary, and will probably take a few minutes to read if you are interested.
