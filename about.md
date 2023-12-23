@@ -3,15 +3,13 @@ layout: page
 title: What is this about?
 permalink: /about
 ---
-This website is a space for to document my learning and growth as an individual. I intend to post my thoughts about matters that strike me as important, as well as some miscellaneous other things, potentially creative endeavours. The purpose of doing this is to share my thoughts with likeminded people, and to leverage writing into personal development. That is the short description! What follows is substantially more detail than necessary, and will probably take a few minutes to read if you are interested.
-
+This website is a space for me to document my learning and growth as an individual. I intend to post my thoughts about matters that strike me as important, as well as some miscellaneous other things, potentially creative endeavours. The purpose of doing this is to share my ideas with likeminded people, and to leverage writing into personal development. That is the short description! What follows is substantially more detail than necessary, and will probably take a few minutes to read if you are interested.
 # Why make a website?
 The advent of writing was critical step towards the enlightenment of our species, and likewise this website is intended to be step towards my own growth and maturity. In writing the mind is made external, and in reading it is re-internalized. Just as we might check our complexion in the mirror, the written reflection prompts one to tidy up their internal contradictions. In this way, written language provides a unique opportunity for self-reflection.
 
 As for making this public: I don't necessarily believe I have something worthwhile to contribute to any of the subjects that I presume to comment on, but nonetheless I am compelled to think I *ought* to share my thoughts regardless. I believe that rational thought comes to know and realize itself reflexively; one beholds the thoughts of others as shards of truth in which their own thoughts are a reflection. In a sense, we are all pieces of a truth that comes to understand itself, which is perhaps to say that we are all the image of God. In light of that, I think that it is good and productive for me to put my piece forward. Pragmatically speaking, having a dedicated public space for my ideas should compel me to write and therefore reflect, which is conducive to self-development.
 
-I'm open to learning and changing, and it isn't really my desire for anyone to just adopt my beliefs. Thinking for yourself is a critically important skill, and above all else that is what I want to encourage. The idea that a human beings can stumble through life without an adequate account of what it means just to *be* is a saddening one. Matters of life, love, thought, truth, meaning, and ontology are some of the most significant topics one can put their mind to, and I hope that by putting my own thoughts out there, I can encourage others as well.
-
+I'm open to learning and changing, and it isn't really my desire for anyone to just adopt my beliefs. Thinking for yourself is a critically important skill, and above all else that is what I want to encourage. The idea that a human beings can stumble through life without an adequate account of what it means just to *be* is a saddening one. Matters of life, love, thought, truth, meaning, and ontology are some of the most significant topics one can put their mind to, and I hope that by putting my own thoughts out there, I can encourage others to ruminate on these things as well.
 # What do you believe?
 I have opinions and perspectives on a plethora of cultural and political matters, but they do not represent substantial beliefs of mine. What follows should more or less suffice to convey a few of my core beliefs and contextualize where the rest of my opinions come from.
 
@@ -26,3 +24,7 @@ I believe in the whole, not in the parts. I believe that the Universe is whole, 
 I believe the Universe is dynamic and not static; I believe that dynamism can be described in terms of harmony and dissonance and that harmony and dissonance are not dynamic apart from each other. I believe that there is beauty in ugliness, silliness in seriousness, duality in nonduality, and that the reverse is true on all accounts. I believe anything true is like this.
 
 I believe that our culture is spiritually deficient and devoid of meaning. I believe that this is because the institution of science has positioned itself as the sole arbiter of truth and meaning, while failing to provide an adequate account of either. I value and enjoy science, but it is fundamentally unequipped to answer the questions we most desperately need answers to. The response to this has been to assume that the answers are somehow unknowable. This is an immature form of mysticism, and I reject this too.
+
+
+
+
