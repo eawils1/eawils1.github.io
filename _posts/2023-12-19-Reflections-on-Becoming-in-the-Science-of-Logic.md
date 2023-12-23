@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reflections on Becoming in the Science of Logic
-categories: [content, hegel]
+categories: [philosophy, hegel]
 ---
 
 Lately I have been reading the Science of Logic by G.W.F. Hegel. This is a mountain of a text and I am not yet through it. Nonetheless, I am finding that Hegel speaks to much of what I intuitively feel is true about the world. What follows is my own personal reflection of the first development in the Science of Logic: Being, Nothing, Becoming. This should *not* be taken as a commentary or a guide to Hegel's ideas; if you are interested in that you should go read him yourself as I have less than no authority on the matter. The intent of this is to put my own understanding into words.

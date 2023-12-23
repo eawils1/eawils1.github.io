@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Divorcing Math from Truth
-categories: [content, hegel]
+categories: [philosophy, math]
 ---
 
 From an engineering perspective, math presents itself as a practical device, a set of tools to be used as tools. Similarly, a physicist uses math to construct models of reality, and as such may be inclined to see the correspondence between math and reality as evidence of mathematical realism. For both the engineer and the physicist, the study of mathematics appears to be a study of the very structure of reality and truth itself, a notion not uncommon to mathematicians who style themselves as practitioners of the purest science, a science upstream from the rest. This is, in truth, a backwards and fanciful idea. Insofar as math actually means anything, it is truly downstream from physics and engineering, and the inversion of this relationship has confused the modern notion of “truth”. 
 
-<!-- More -->
+<!--more-->
 
 Math is a human contrivance and its correspondence to physical reality only arises because it was meant to. The unquestioned materialist philosophy that underpins the modern science renders the teleology of math invisible, and the answer to the question of whether math is made or discovered is by default taken to be that it is discovered. This is an unconscious assumption that is primarily made because mathematical innovation *feels like* discovery. The mind is wowed and bewildered by how **well** math works as a model for physical systems, and such coherence inclines one to believe that something profound has been discovered. But there is nothing truly profound going on here, any amazement ought to fall away once it is understood that math is **designed** to do this.
 
