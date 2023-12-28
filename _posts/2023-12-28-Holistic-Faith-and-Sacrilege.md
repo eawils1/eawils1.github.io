@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Divorcing Math from Truth
+title: Holistic Faith and Sacrilege
 categories: [philosophy, christianity, religion]
 ---
 
